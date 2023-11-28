@@ -1,0 +1,99 @@
+:root {
+    --main-font-family: 'Roboto';
+    --secondary-font-family: 'Raleway';
+
+    --main-font-size: 14px;
+
+    --logo-color: #000000;
+    --seconadry-text-color: #757575;
+    --main-text-color: #212121;
+    --accent-color: #2196f3;
+}
+
+body {
+    font-family: var(--main-font-family), var(--secondary-font-family), sans-serif;
+    font-size: var(--main-font-size);
+    color: var(--main-text-color);
+}
+
+.logo {
+    text-decoration: none;
+    color: var(--logo-color);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: var(--secondary-font-family);
+    font-size: 26px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+}
+
+.logo-accent {
+    color: var(--accent-color);
+}
+
+.nav {
+    color: var(--main-text-color);
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+
+.list {
+    list-style: none;
+}
+
+.nav-list-link:link,
+.nav-list-link:visited {
+    text-decoration: none;
+    color: var(--main-text-color);
+}
+
+.nav-list-item:hover .nav-list-link,
+.nav-list-item:focus .nav-list-link {
+    color: var(--accent-color);
+}
+
+.nav-list-item:hover {
+    cursor: pointer;
+}
+
+.contacts-list {
+    color: var(--seconadry-text-color);
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+
+.contacts-link:link,
+.contacts-link:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+.contacts-list-item:hover .contacts-link,
+.contacts-list-item:focus .contacts-link {
+    color: var(--accent-color);
+}
+
+.contacts-list-item:hover {
+    cursor: pointer;
+}
+
+/* HERO  */
+.hero {
+    text-align: center;
+}
+
+.hero .title {
+    /* visibility: hidden; */
+}
+
+.hero-text {
+    /* color: #fff; */
+    color: grey;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 136.364%;
+    letter-spacing: 2.64px;
+    text-transform: uppercase;
+}

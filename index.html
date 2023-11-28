@@ -4,29 +4,47 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>WebStudio</title>
+        <link rel="stylesheet" href="
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+        />
         <link rel="stylesheet" href="./css/styles.css" />
     </head>
     <body>
         <header>
-            <p lang="en">WebStudio</p>
-            <nav>
-                <ul>
-                    <li><a href="#">Студія</a></li>
-                    <li><a href="./portfolio.html">Портфоліо</a></li>
-                    <li><a href="#">Контакти</a></li>
+            <a class="logo" lang="en" href="./index.html"
+                ><span class="logo-accent">Web</span>Studio</a
+            >
+            <nav class="nav">
+                <ul class="nav-list list">
+                    <li class="nav-list-item">
+                        <a class="nav-list-link" href="./portfolio.html">Портфоліо</a>
+                    </li>
+                    <li class="nav-list-item"><a class="nav-list-link" href="#">Контакти</a></li>
+                    <li class="nav-list-item"><a class="nav-list-link" href="#">Студія</a></li>
                 </ul>
             </nav>
-            <ul>
-                <li>
-                    <a lang="en" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <ul class="contacts-list list">
+                <li class="contacts-list-item">
+                    <a class="contacts-link" lang="en" href="mailto:info@devstudio.com"
+                        >info@devstudio.com</a
+                    >
                 </li>
-                <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+                <li class="contacts-list-item">
+                    <a class="contacts-link" href="tel:+380961111111">+38 096 111 11 11</a>
+                </li>
             </ul>
         </header>
         <main>
             <section class="hero">
-                <h1>Hero</h1>
-                <p>Ефективні рішення для вашого бізнесу</p>
+                <h1 class="title">Hero</h1>
+                <p class="hero-text">Ефективні рішення для вашого бізнесу</p>
                 <button>Замовити послугу</button>
             </section>
             <section>
